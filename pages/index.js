@@ -1,16 +1,18 @@
 import Head from "next/head";
-import {Box, Typography} from "@mui/material"
+import { Box, Typography } from "@mui/material";
 
 export default function Home() {
   return (
-    <Box >
+    <Box>
       <Head>
         <title>Write Flight</title>
-        <meta name="Screenwriting Guide" content="Screenwriting Tool for greater efficiency" />
+        <meta
+          name="Screenwriting Guide"
+          content="Screenwriting Tool for greater efficiency"
+        />
       </Head>
-
       <main>
-        <Typography component="h1" >Write Flight</Typography>
+        <Typography component="h1">Write Flight</Typography>
       </main>
     </Box>
   );
